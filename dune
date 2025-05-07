@@ -1,0 +1,7 @@
+(executable 
+ (name report4) 
+ (libraries metro kansai higashi global seoul)) 
+
+(env 
+ (dev 
+  (flags (:standard -warn-error -A))))
